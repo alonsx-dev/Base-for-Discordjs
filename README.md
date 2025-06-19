@@ -50,4 +50,4 @@ Discord: **[unknownbyx](https://discord.com/users/627501356093276231)**
 
 ---
 ## 📄 License
-Distributed under the **[MIT]()** License 
+Distributed under the **[MIT](https://github.com/alonsx-dev/Base-for-Discordjs/blob/main/LICENSE)** License 
