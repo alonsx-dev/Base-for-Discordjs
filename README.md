@@ -28,6 +28,7 @@ npm install
 **3. Configure the .env file**
 ```env
 TOKEN = BOT_TOKEN
+PREFIXO = BOT_PREFIX
 ```
 **4. Start the bot**
 ```bash
