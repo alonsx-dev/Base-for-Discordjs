@@ -39,6 +39,11 @@ node .
 - Modular event system
 - Simple and ready-to-scale structure
 ---
+## 📝 Updates
+### v1.1.0 (06/20/2025)
+- **Added new features:** Prefix Commands
+- **Improved code structure**
+---
 ## 🛠 Requirements
 - Node.js v18 or higher
 - A bot client on Discord
