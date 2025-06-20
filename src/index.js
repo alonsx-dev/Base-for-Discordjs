@@ -8,7 +8,11 @@ const client = new Discord.Client({
 module.exports = client
 
 client.slashCommands = new Discord.Collection()
-require('./Handler/Commands')(client)
+client.commands = new Discord.Collection()
+client.aliases = new Discord.Collection()
+
+require('./Handler/PrefixCommands')(client)
+require('./Handler/SlashCommands')(client)
 require('./Handler/Events')(client)
 
 client.login(process.env.TOKEN)
