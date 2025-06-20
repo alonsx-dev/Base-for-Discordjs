@@ -1,6 +1,6 @@
 {
   "name": "Base for Discordjs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple Discord.js base with event handlers and slash commands.",
   "repository": {
       "type": "git",
