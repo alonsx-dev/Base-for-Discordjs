@@ -1,14 +1,14 @@
-const fs = require("fs");
+const fs = require("fs")
 
 module.exports = async (client) => {
     const SlashsArray = []
 
-    fs.readdir(`./src/Commands`, (error, folder) => {
+    fs.readdir(`./src/SlashCommands`, (error, folder) => {
         folder.forEach((subfolder) => {
-            fs.readdir(`./src/Commands/${subfolder}/`, (error, files) => {
+            fs.readdir(`./src/SlashCommands/${subfolder}/`, (error, files) => {
                 files.forEach((file) => {
                     if (!file?.endsWith('.js')) return
-                    const command = require(`../Commands/${subfolder}/${file}`)
+                    const command = require(`../SlashCommands/${subfolder}/${file}`)
                     if (!command?.name) return
                     client.slashCommands.set(command.name, command)
 
