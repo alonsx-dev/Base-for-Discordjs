@@ -6,11 +6,12 @@ A simple Discord.js base with event handlers and slash commands.
 ```bash
 Base-for-Discordjs/
 ├── src/
-│   ├── Commands/      # Slash commands
-│   ├── Events/        # Events
-│   ├── Handler/       # Handler
-│   ├── index.js       # Main file
-├── .env               # Environment variables
+│   ├── Events/          # Events
+│   ├── Handler/         # Handler
+│   ├── PrefixCommands/  # Prefix Commands
+│   ├── SlashCommands/   # Slash Commands
+│   ├── index.js         # Main file
+├── .env                 # Environment variables
 ├── package.json
 └── README.md
 ```
